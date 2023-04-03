@@ -1,0 +1,88 @@
+main {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/004/968/002/original/cute-abstract-modern-background-free-vector.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    margin-top: 50px;
+    height: 80%;
+    width: 80%;
+    background-color: #f47a60;
+    /* border: 10px dashed white; */
+    border-radius: 50px;
+}
+
+.main-container h1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 80px;
+    font-weight: bolder;
+    color:white;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-profile {
+    margin-right: 100px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.img-profile img {
+    width: 200px;
+}
+
+.caption {
+    text-align: left;
+}
+
+.caption h2 {
+    font-size: 40px;
+    color: white;
+}
+
+.caption h2 span {
+    color: black;
+}
+
+.caption p {
+    font-size: 20px;
+    color: black;
+}
+
+.main-caption {
+    width: 80%;
+    text-align: justify;
+    margin: 50px auto;
+    font-size: 20px;
+    color: white;
+}
+
+.sosmed {
+    margin-top: 100px;
+    font-size: 30px;
+    
+}
+
+.sosmed a {
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.sosmed a:hover {
+    color: white;
+}

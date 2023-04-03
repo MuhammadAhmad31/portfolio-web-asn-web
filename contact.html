@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammmad Portfolio</title>
+    <link rel="stylesheet" href="style/navbar.css">
+    <link rel="stylesheet" href="style/contact.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+    <nav>
+        <a href="./index.html">Beranda</a>
+        <a href="./about.html">Tentang</a>
+        <a href="./contact.html">Hubungi</a>
+    </nav>
+
+    <main>
+        <aside>
+            <div>
+                <h1>Hubungi Saya</h1>
+            </div>
+        </aside>
+
+        <div class="main-content">
+            <div class="maps">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15813.190100849652!2d110.36388774612595!3d-7.758236526171703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59002730a265%3A0x762d6a42caa5eef9!2sPogung%20Lor%2C%20Pogung%20Kidul%2C%20Sinduadi%2C%20Kec.%20Mlati%2C%20Kabupaten%20Sleman%2C%20Daerah%20Istimewa%20Yogyakarta!5e0!3m2!1sid!2sid!4v1680170968521!5m2!1sid!2sid"
+                    width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+            <div class="form-container">
+                <form action="#" class="form">
+                    <div class="input-wrapper">
+                        <input type="text" name="fullname" class="form-input" placeholder="Full name" required
+                            data-form-input>
+                        <input type="email" name="email" class="form-input" placeholder="Email address" required
+                            data-form-input>
+                    </div>
+                    <textarea name="message" class="form-input" placeholder="Your Message" required
+                        data-form-input></textarea>
+                    <button class="form-btn" type="submit" disabled data-form-btn>Kirim Pesan</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="icon-contact">
+            <figure>
+                <a href="https://goo.gl/maps/M91Xy9uFu8CG8MpK6" target="_blank">
+                    <ion-icon name="location-outline"></ion-icon>
+                    <figcaption>
+                        <h3>Lokasi Saya</h3>
+                        <p>Mlati, Sleman, DIY</p>
+                    </figcaption>
+                </a>
+            </figure>
+            <figure>
+                <a href="tel:087758901426">
+                    <ion-icon name="call-outline"></ion-icon>
+                    <figcaption>
+                        <h3>Telepon Saya</h3>
+                        <p>087758901000</p>
+                    </figcaption>
+                </a>
+            </figure>
+            <figure>
+                <a href="mailto:ahmadsilva7@gmail.com" target="_blank">
+                    <ion-icon name="mail-open-outline"></ion-icon>
+                    <figcaption>
+                        <h3>Email Saya</h3>
+                        <p>ahmadsilva7@gmail.com</p>
+                    </figcaption>
+                </a>
+            </figure>
+        </div>
+    </main>
+</body>
+
+</html>

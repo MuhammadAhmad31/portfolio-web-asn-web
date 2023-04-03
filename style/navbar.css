@@ -1,0 +1,41 @@
+/* reset & body */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    text-align: center;
+    background-color:#f47a60 ;
+    position: relative;
+    color:#000002;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* Navigasi */
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #f47a60;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+nav a {
+    margin: 30px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}

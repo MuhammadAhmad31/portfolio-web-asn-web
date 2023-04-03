@@ -1,0 +1,127 @@
+nav {
+    margin-top: -100px !important;
+}
+
+aside {
+    margin-top: 100px;
+}
+
+aside h1 {
+    color: white;
+}
+
+.main-content {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.maps {
+    border: 10px solid white;
+    width: 600px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/* Form */
+.form-container {
+    margin-bottom: 100px;
+}
+
+form {
+    margin: 0px auto;
+    height: 300px;
+    width: 90%;
+}
+
+input, textarea {
+    width: 100%;
+    height: 50px;
+    background-color: #f47a60;
+    margin: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 15px;
+    border: 2px solid black;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: rgb(215, 213, 213);
+}
+
+input:focus, textarea:focus  {
+    outline: none !important;
+    border: 4px solid white;
+}
+
+textarea {
+    height: 200px !important;
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.icon-contact {
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-contact figure {
+    margin: 50px;
+}
+
+figure h3 {
+    margin: 10px;
+    color: black;
+}
+
+figure a {
+    text-decoration: none;
+}
+
+figure a:hover {
+    box-shadow: 2px 2px 2px rgb(255, 255, 255);
+}
+
+figure a:hover ion-icon {
+    animation-name: slideUp;
+    animation-duration: 0.4s;
+}
+
+ion-icon {
+    font-size: 70px;
+    color: white;
+}
+
+figure figcaption p {
+    color: white;
+}
+
+@keyframes slideUp {
+    from {margin-top: 0px;}
+    to {margin-top: -20px;}
+}

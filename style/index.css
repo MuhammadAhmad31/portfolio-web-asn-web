@@ -1,0 +1,146 @@
+/* Profile */
+
+#profile {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/004/968/002/original/cute-abstract-modern-background-free-vector.jpg);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-img {
+    border: 2px solid black;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.container-img img {
+    width: 250px;
+}
+
+
+.content {
+    margin-top: 15px;
+}
+
+.content h1 {
+    font-size: 35px;
+}
+
+.content p {
+    color: #f47a60;
+    font-weight: bold;
+}
+
+.button button {
+    padding: 15px;
+    margin: 30px 10px 0px 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f47a60;
+}
+
+.button button a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.button button:hover {
+    background-color: black;
+}
+
+/* Main content */
+main {
+    color: white;
+    margin: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+main h2 {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+ol,
+ul {
+    margin-top: 20px;
+    text-align: left;
+}
+
+li {
+    margin: 15px;
+}
+
+ul li {
+    margin-left: 20px;
+}
+
+/* Portfolio */
+
+.portfolio {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/004/968/002/original/cute-abstract-modern-background-free-vector.jpg);
+    min-height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.portfolio h2 {
+    margin: 50px;
+    font-size: 35px;
+}
+
+.cards {
+    background-color: #f47a60;
+    width: 60%;
+    padding: 50px;
+    border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    border: 20px dashed white ;
+}
+
+.card {
+    background-color: white;
+    border: 10px solid white;
+    border-radius: 10px;
+    margin: 20px;
+}  
+
+.card img {
+    width: 250px;
+}
+
+.card figcaption {
+    padding: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #f47a60;
+    width: 100%;
+}
+
+footer p {
+    font-size: 25px;
+    color: white;
+    padding: 30px;
+}   
